@@ -2,6 +2,7 @@ html,body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: "DM Sans", sans-serif;
 }
 
 /* header*/
@@ -35,6 +36,13 @@ html,body {
     color: white;
 }
 
+/* typography */
+
+h2 {font-size: 2rem;}
+p {font-size: 1.25rem;}
+
+
+
 /* hero banner */
 
 .site-banner {
@@ -54,7 +62,7 @@ html,body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 1rem;
+    text-align: center;
 }
 
 /* Intro */
