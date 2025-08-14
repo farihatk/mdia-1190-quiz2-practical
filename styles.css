@@ -57,6 +57,18 @@ html,body {
     padding-left: 1rem;
 }
 
+/* Intro */
+
+.intro-container {
+    padding: 1rem;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+/* Footer */
+
 .site-footer {
     padding: 1rem;
     background-color: #000;
