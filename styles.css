@@ -1,9 +1,12 @@
 html,body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden; /*this is to make it stop horizontal scrolling*/
     font-family: "DM Sans", sans-serif;
 }
+
+h2 {font-size: 2rem;}
+p {font-size: 1.25rem;}
 
 /* header*/
 
@@ -41,8 +44,7 @@ html,body {
 
 /* typography */
 
-h2 {font-size: 2rem;}
-p {font-size: 1.25rem;}
+
 
 
 /* hero banner */
