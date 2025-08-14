@@ -10,6 +10,7 @@ html,body {
 .site-header {
     background-color: black;
     padding: 0 1rem;
+    
 }
 
 .site-header h1 {
@@ -22,7 +23,9 @@ html,body {
     align-items: center;
     width: 100%;
     max-width: 80rem;
+    margin: 0 auto;
 }
+
 
 .site-nav ul {
     display: flex;
@@ -128,5 +131,9 @@ p {font-size: 1.25rem;}
         color: black;
         padding: 0.5rem;
         border-radius: 0.5rem;
+    }
+
+    .site-banner {
+        aspect-ratio: 16/9;
     }
 }
