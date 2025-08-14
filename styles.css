@@ -26,7 +26,7 @@ html,body {
 
 .site-nav ul {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
@@ -120,9 +120,13 @@ p {font-size: 1.25rem;}
     
     .site-nav a {
         font-size: 1.25rem;
+        transition: 0.3s;
     }
 
-    .site-banner__text {
-        font-size: 
+    .site-nav a:hover {
+        background-color: white;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
     }
 }
